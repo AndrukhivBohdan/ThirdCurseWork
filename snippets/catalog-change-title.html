@@ -1,0 +1,101 @@
+<h2 id="catalog-categories-title" class="text-center">Взаємодія з товаром</h2>
+
+<div class="text-center mb-3">
+  <button
+    class="btn btn-success"
+    onclick="document.getElementById('add-new-item-form').classList.toggle('d-none')"
+  >
+    Додати новий товар
+  </button>
+</div>
+
+<div id="add-new-item-form" class="container mb-4">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card p-3 shadow-sm">
+        <h5 class="text-center mb-3">Новий товар</h5>
+
+        <!-- Вибір категорії -->
+        <div class="mb-2">
+          <label class="form-label">Категорія</label>
+          <select class="form-select" id="new-product-category">
+            <option value="">-- Оберіть категорію --</option>
+            <!-- Список заповниться через JS -->
+          </select>
+        </div>
+
+        <!-- Поле для нової категорії (зʼявиться, якщо обрано "Інше") -->
+        <div class="mb-2 d-none" id="new-category-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Назва нової категорії"
+            id="new-category-name"
+          />
+        </div>
+
+        <!-- Поля товару -->
+        <div class="mb-2">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Назва товару"
+            id="new-product-name"
+          />
+        </div>
+        <div class="mb-2">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Опис"
+            id="new-product-description"
+          />
+        </div>
+        <div class="mb-2">
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Ціна"
+            id="new-product-price"
+          />
+        </div>
+        <div class="mb-2">
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Знижка (%)"
+            id="new-product-discount"
+          />
+        </div>
+        <div class="mb-2">
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Кількість"
+            id="new-product-quantity"
+          />
+        </div>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-primary btn-update-item" onclick="event.preventDefault(); $ns.addNewItem()">
+            Додати
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<table class="table table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th>Назва товару</th>
+      <th>Категорія</th>
+      <th>Кількість</th>
+      <th>Ціна</th>
+      <th>Знижка</th>
+      <th>Кінцева ціна</th>
+      <th>+/-</th>
+      <th>Оновити</th>
+    </tr>
+  </thead>
+  <tbody>

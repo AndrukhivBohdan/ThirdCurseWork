@@ -1,0 +1,40 @@
+<div id="main-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images\catalog.png" class="d-block w-80" alt="Slide-1">
+        </div>
+        <div class="carousel-item">
+            <img src="images/adding.png" class="d-block w-80" alt="Slide-2">
+        </div>
+        <div class="carousel-item">
+            <img src="images/simulation.png" class="d-block w-80" alt="Slide-3">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div id="home-tiles" class="row">
+    <div class="col-lg-4 col-md-6 col-12">
+        <a href="javascript:void(0)" onclick="$ns.loadCatalogCategories();">
+            <div id="catalog-tile"><span>catalog</span></div>
+        </a>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12">
+        <a href="javascript:void(0)" onclick="$ns.loadCatalogForChanges();">
+            <div id="sale-tile"><span>Add</span></div>
+        </a>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12">
+        <a href="javascript:void(0)" onclick="$ns.loadSimulation();">
+            <div id="simulation-tile"><span>Simulation</span></div>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+[
+{
+    "id":1,
+    "short_name":"A",
+    "CategoryName":"Цемент",
+    "special_instructions":"Some infoA",
+    "url":"data/catalog/A.json"
+},
+{
+    "id":2,
+    "short_name":"B",
+    "CategoryName":"Інструменти",
+    "special_instructions":"Some infoB",
+    "url":"data/catalog/B.json"
+},
+{
+    "id":3,
+    "short_name":"C",
+    "CategoryName":"Фарба",
+    "special_instructions":"Some infoC",
+    "url":"data/catalog/C.json"
+},
+{
+    "id":4,
+    "short_name":"D",
+    "CategoryName":"Гіпсокартон",
+    "special_instructions":"Some infoD",
+    "url":"data/catalog/D.json"
+},
+{
+    "id":5,
+    "short_name":"E",
+    "CategoryName":"Кріплення",
+    "special_instructions":"Some infoE",
+    "url":"data/catalog/E.json"
+}
+]

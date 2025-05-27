@@ -1,0 +1,49 @@
+{
+  "catalog_items": [
+    {
+      "id": 21,
+      "short_name": "A",
+      "product_name": "Carpenter Hammer",
+      "description": "Кувалда з кованої сталі з дерев'яною ручкою, ідеально підходить для будівельних робіт.",
+      "price": 95,
+      "discount": 0,
+      "quantity": 30,
+      "category_type": "no_discount"
+    },
+    {
+      "id": 22,
+      "short_name": "B",
+      "product_name": "Screwdriver Set 6pcs",
+      "description": "Набір із 6 викруток з магнітними наконечниками та ергономічною ручкою.",
+      "price": 120,
+      "discount": 0,
+      "quantity": 97,
+      "category_type": "no_discount"
+    },
+    {
+      "id": 23,
+      "short_name": "C",
+      "product_name": "Adjustable Wrench 250mm",
+      "description": "Розвідний ключ 250мм з антикорозійним покриттям.",
+      "price": 85,
+      "discount": 7,
+      "quantity": 112,
+      "category_type": "discount"
+    },
+    {
+      "id": 24,
+      "short_name": "D",
+      "product_name": "Multi-purpose Pliers",
+      "description": "Універсальні пасатижі довжиною 160мм для ремонту та монтажу.",
+      "price": 60,
+      "discount": 6,
+      "quantity": 109,
+      "category_type": "discount"
+    }
+  ],
+  "category": {
+    "short_name": "B",
+    "CategoryName": "Tools",
+    "special_instructions": "Handle with care"
+  }
+}

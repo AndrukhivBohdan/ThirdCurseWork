@@ -1,0 +1,49 @@
+{
+  "catalog_items": [
+    {
+      "id": 11,
+      "short_name": "A",
+      "product_name": "Portland Cement 25kg",
+      "description": "Найпопулярніший цемент для загального будівництва. Ідеальний для фундаментів та кладки.",
+      "price": 150,
+      "discount": 20,
+      "quantity": 142,
+      "category_type": "big_discount"
+    },
+    {
+      "id": 12,
+      "short_name": "B",
+      "product_name": "White Cement 25kg",
+      "description": "Білий цемент для декоративного оздоблення та дизайнерських рішень.",
+      "price": 170,
+      "discount": 0,
+      "quantity": 19,
+      "category_type": "no_discount"
+    },
+    {
+      "id": 13,
+      "short_name": "C",
+      "product_name": "Fast-setting Cement",
+      "description": "Швидкотвердіючий цемент для оперативного ремонту та термінового монтажу.",
+      "price": 200,
+      "discount": 0,
+      "quantity": 31,
+      "category_type": "no_discount"
+    },
+    {
+      "id": 14,
+      "short_name": "D",
+      "product_name": "High Strength Cement",
+      "description": "Цемент з підвищеною міцністю для спеціальних конструкцій та навантажень.",
+      "price": 220,
+      "discount": 0,
+      "quantity": 0,
+      "category_type": "no_discount"
+    }
+  ],
+  "category": {
+    "short_name": "A",
+    "CategoryName": "Cement",
+    "special_instructions": "Будуйте будинки"
+  }
+}

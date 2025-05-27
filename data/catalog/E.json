@@ -1,0 +1,49 @@
+{
+  "catalog_items": [
+    {
+      "id": 51,
+      "short_name": "A",
+      "product_name": "Nails 100mm 1kg",
+      "description": "Сталеві цвяхи ідеально підходять для дерев'яних каркасів і теслярських робіт.",
+      "price": 40,
+      "discount": 5,
+      "quantity": 446,
+      "category_type": "discount"
+    },
+    {
+      "id": 52,
+      "short_name": "B",
+      "product_name": "Wood Screws 4x50mm",
+      "description": "Коробка зі 100 міцними шурупами з гострою різьбою.",
+      "price": 60,
+      "discount": 0,
+      "quantity": 385,
+      "category_type": "new"
+    },
+    {
+      "id": 53,
+      "short_name": "C",
+      "product_name": "Metal Bolts M8",
+      "description": "Набір з 50 високоміцних болтів М8 для металевих кріплень.",
+      "price": 75,
+      "discount": 0,
+      "quantity": 271,
+      "category_type": "no_discount"
+    },
+    {
+      "id": 54,
+      "short_name": "D",
+      "product_name": "Drywall Screws 3.5x25mm",
+      "description": "Шурупи з фосфатним покриттям для кріплення гіпсокартону до дерева або металу.",
+      "price": 55,
+      "discount": 10,
+      "quantity": 348,
+      "category_type": "discount"
+    }
+  ],
+  "category": {
+    "short_name": "E",
+    "CategoryName": "Fasteners",
+    "special_instructions": "Keep dry"
+  }
+}

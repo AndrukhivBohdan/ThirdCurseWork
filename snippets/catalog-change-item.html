@@ -1,0 +1,30 @@
+<tr>
+  <td>
+    <input type="text" class="form-control" id="productName-{{id}}" value="{{product_name}}">
+  </td>
+  <td>{{CategoryName}}</td>
+
+  <td>
+    <input type="number" class="form-control" id="quantity-{{id}}" value="{{quantity}}" min="0">
+  </td>
+
+  <td>
+    <input type="number" class="form-control" id="price-{{id}}" value="{{price}}" min="0">
+  </td>
+
+  <td>
+    <input type="number" class="form-control" id="discount-{{id}}" value="{{discount}}" min="0" max="100">
+  </td>
+
+  <td>
+    <div class="form-control bg-light" id="final-{{id}}" readonly>{{finalPrice}}</div>
+  </td>
+
+  <td>
+    <input type="number" class="form-control" id="changeAmount-{{id}}" placeholder="+/-">
+  </td>
+
+  <td>
+    <button type="button" class="btn btn-success btn-update-item" onclick="$ns.updateItem('{{id}}', '{{catShortName}}');">Оновити</button>
+  </td>
+</tr>

@@ -1,0 +1,49 @@
+{
+  "catalog_items": [
+    {
+      "id": 31,
+      "short_name": "A",
+      "product_name": "White Wall Paint 10L",
+      "description": "Інтер'єрна матова фарба для житлових приміщень з покращеною покривністю.",
+      "price": 350,
+      "discount": 0,
+      "quantity": 16,
+      "category_type": "new"
+    },
+    {
+      "id": 32,
+      "short_name": "B",
+      "product_name": "Blue Exterior Paint 5L",
+      "description": "Глянцева та атмосферостійка фарба для зовнішнього використання.",
+      "price": 290,
+      "discount": 0,
+      "quantity": 29,
+      "category_type": "new"
+    },
+    {
+      "id": 33,
+      "short_name": "C",
+      "product_name": "Wood Varnish 3L",
+      "description": "Швидкосихаючий прозорий лак для захисту та блиску деревини.",
+      "price": 180,
+      "discount": 0,
+      "quantity": 29,
+      "category_type": "new"
+    },
+    {
+      "id": 34,
+      "short_name": "D",
+      "product_name": "Anti-mold Paint 7L",
+      "description": "Фарба зі стійкою до цвілі формулою ідеально підходить для кухонь і ванних кімнат.",
+      "price": 310,
+      "discount": 15,
+      "quantity": 0,
+      "category_type": "discount"
+    }
+  ],
+  "category": {
+    "short_name": "C",
+    "CategoryName": "Paints",
+    "special_instructions": "Store in cool dry place"
+  }
+}

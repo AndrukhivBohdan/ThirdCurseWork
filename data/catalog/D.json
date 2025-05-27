@@ -1,0 +1,49 @@
+{
+  "catalog_items": [
+    {
+      "id": 41,
+      "short_name": "A",
+      "product_name": "Gypsum Board 12mm",
+      "description": "Стандартна гіпсокартонна плита товщиною 12 мм для загального будівництва.",
+      "price": 130,
+      "discount": 0,
+      "quantity": 238,
+      "category_type": "new"
+    },
+    {
+      "id": 42,
+      "short_name": "B",
+      "product_name": "Moisture Resistant Board",
+      "description": "Зелена дошка підходить для ванних кімнат і вологих приміщень.",
+      "price": 180,
+      "discount": 0,
+      "quantity": 153,
+      "category_type": "new"
+    },
+    {
+      "id": 43,
+      "short_name": "C",
+      "product_name": "Fire Resistant Board",
+      "description": "Плита високої щільності, розроблена для вогнестійких застосувань.",
+      "price": 210,
+      "discount": 26,
+      "quantity": 29,
+      "category_type": "big_discount"
+    },
+    {
+      "id": 44,
+      "short_name": "D",
+      "product_name": "Acoustic Board",
+      "description": "Звукоізоляційна плита для шумочутливих середовищ.",
+      "price": 250,
+      "discount": 0,
+      "quantity": 72,
+      "category_type": "no_discount"
+    }
+  ],
+  "category": {
+    "short_name": "D",
+    "CategoryName": "Board",
+    "special_instructions": "Transport carefully"
+  }
+}

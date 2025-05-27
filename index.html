@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <link
+      rel="stylesheet"
+      href="css/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/simulation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <div class="navbar-brand d-flex">
+            <a class="d-none d-lg-block" href="index.html">
+              <div id="logo-img"></div>
+            </a>
+            <div class="align-self-center">
+              <a href="index.html">Custom company</a>
+              <p>
+                <img src="images/SubLogo.png" alt="Family Logo" />
+                <span>Custom family</span>
+              </p>
+            </div>
+          </div>
+
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsable-nav"
+            aria-controls="collapsable-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsable-nav">
+            <ul class="navbar-nav ms-auto" id="nav-list">
+              <li class="nav-item d-block d-md-none">
+                <a
+                  class="nav-link active"
+                  id="navHomeButton"
+                  aria-current="page"
+                  href="index.html"
+                >
+                  <i class="bi-house-fill icons-header"></i
+                  ><br class="d-none d-md-block" />
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center post"
+                  id="navCatalogButton"
+                  href="javascript:void(0)"
+                  onclick="$ns.loadCatalogCategories();"
+                >
+                  <i class="bi-bag-fill icons-header"></i
+                  ><br class="d-none d-md-block" />
+                  Catalog
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-center" href="javascript:void(0)"onclick="$ns.about();">
+                  <i class="bi-info-circle-fill icons-header"></i
+                  ><br class="d-none d-md-block" />
+                  About
+                </a>
+              </li>
+
+              <li id="phone" class="nav-item d-none d-md-block">
+                <a class="nav-link" href="tel:(555)555-44-55">
+                  <i class="bi-telephone"></i>
+                  <span>(555)555-44-55</span>
+                </a>
+                <div>* Contact us</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="sm-call" class="container">
+      <div id="call-btn" class="d-block d-md-none">
+        <a class="btn" href="tel: (555)555-44-55">
+          <i class="bi-telephone"></i>
+          (555)555-44-55
+        </a>
+      </div>
+      <div id="sm-deliver" class="text-center d-block d-md-none">
+        * Contact us
+      </div>
+    </div>
+
+    <div id="main-content" class="container"></div>
+
+<footer class="card-footer">
+  <div class="container">
+    <div class="row">
+      <section id="hours" class="col-md-4 col-12">
+        <span><strong>Графік роботи:</strong></span><br />
+        Пн–Пт: 09:00 – 18:00<br />
+        Сб: 10:00 – 16:00<br />
+        Нд: вихідний
+        <p>
+          * Онлайн-магазин працює цілодобово. Обробка замовлень відбувається лише в робочі години.
+        </p>
+        <hr class="d-block d-md-none" />
+      </section>
+
+      <section id="address" class="col-md-4 col-12">
+        <span><strong>Адреса:</strong></span><br />
+        вул. Незалежності, 12<br />
+        м. Київ, Україна, 01001
+        <hr class="d-block d-md-none" />
+      </section>
+
+      <section id="testimonials" class="col-md-4 col-12">
+        <p>“Швидка доставка та якісні товари!”</p>
+        <p>“Все для ремонту в одному місці — рекомендую!”</p>
+      </section>
+    </div>
+
+    <div class="text-center mt-3">
+      © 2025 Магазин «БудМаркет». Усі права захищено.
+    </div>
+  </div>
+</footer>
+
+
+<script src="scripts/bootstrap.bundle.min.js"></script>
+<script src="scripts/ajax-utils.js"></script>
+
+<!-- Основні класи та об'єкти -->
+<script src="scripts/Buyer.js"></script>
+
+
+<!-- Головний файл з ініціалізацією -->
+<script src="scripts/script.js"></script>
+<script src="scripts/simulation.js"></script>
+  </body>
+</html>

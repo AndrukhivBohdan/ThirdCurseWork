@@ -1,0 +1,27 @@
+<div class="catalog-item-tile col-lg-6 col-12">
+  <div class="row">
+    <!-- Зображення + коротке ім'я -->
+    <div class="col-md-5 col-12">
+      <div class="catalog-item-photo text-center">
+        <img class="img-fluid" width="250" height="150" src="images/catalog/{{categoryShort_name}}/{{short_name}}.png" alt="{{product_name}}">
+
+      </div>
+    </div>
+
+    <!-- Опис продукту -->
+    <div class="catalog-item-description col-sm-7 col-12">
+      <h3 class="catalog-item-title">{{product_name}}</h3>
+      <p class="catalog-item-details">{{description}}</p>
+      <div class="catalog-item-price">
+
+          {{price}}
+        
+        <br>
+        <small class="text-muted">На складі: {{quantity}} од.</small>
+      
+    </div>
+    </div>
+  </div>
+
+  <hr class="d-block d-md-none">
+</div>
